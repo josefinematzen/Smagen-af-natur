@@ -1,0 +1,156 @@
+ body{
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+	font-stretch: 16px;
+    background-color:  #FFF6C9;
+}
+.navbar {
+    background-color: #C3DD6B;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.navbar:hover {
+  color: white;
+}
+.flex-sektion a {
+    font-weight: bold;
+    padding: 20px;
+}
+.flex-sektion {
+    display: flex;
+    gap: 20px;         
+    align-items: flex-start;
+}
+h1 {
+    text-align: center;
+}
+.ks {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 10px;
+}
+h3 {
+	font-size: 18;
+	padding-left: 10px;
+	font-size: 25px;
+}
+ul {
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.overst-forsidebillede {
+	padding-left: 10px;
+	height: 500px;
+}
+.nederst-forsidebillede {
+	height: 500px;
+}
+.om-os-billede {
+	height: 300px;
+	padding: 50px;
+}
+.Forside {
+	padding-right: 15%;
+}
+.mere-om-billede {
+	height: 350px;
+	padding: 20px;
+}
+.tekst-kontakt {
+    text-align: center; 
+	width: 500px;
+	padding-left: 27%;
+}
+.boks-2{
+    border-radius: 20px;
+    background-color: greenyellow;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25;
+    margin: 40px auto;
+}
+.boks {
+    border-radius: 20px;
+    background-color: greenyellow;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto;
+    display: flex;
+    font-size: 20px;
+}
+.Gras {
+	width: 100%;
+}
+
+.form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.raekke {
+    display: flex;
+    gap: 40px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 50px;   
+}
+
+textarea {
+    border-radius: 30px;   
+    height: 80px;
+    resize: none;
+	padding: 13px;
+}
+
+
+button {
+    background: #C3DD6B;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;   
+    font-size: 16px;
+    cursor: pointer;
+	width: 300px;
+	margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .flex-sektion {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+.flex-sektion.omvendt {
+    flex-direction: column;
+  }
+  .billede {
+    width: 100%;         
+  }
+}
+
+
