@@ -72,8 +72,8 @@ ul {
 }
 .tekst-kontakt {
     text-align: center; 
-	width: 500px;
-	padding-left: 27%;
+	width: 50%;
+	padding-left: 25%;
 }
 .boks-2{
     border-radius: 20px;
@@ -151,6 +151,6 @@ button {
   .billede {
     width: 100%;         
   }
-}
+
 
 
